@@ -1,0 +1,4 @@
+/* TEAM */
+Lead developer: Aaron Klump
+Site: http://www.intheloftstudios.com
+Location: Bellingham, WA, USA

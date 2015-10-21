@@ -1,0 +1,7 @@
+master = 'master develop'
+develop = 'master develop'
+create_tags = patch
+push_tags = auto
+push_develop = no
+push_master = auto
+patch_prefix = .

@@ -1,0 +1,5 @@
+name = "Intersectable"
+description = ""
+version = "0.0.1"
+author = Aaron Klump <sourcecode@intheloftstudios.com>
+homepage = "http://www.intheloftstudios.com/packages/js/intersectable"
