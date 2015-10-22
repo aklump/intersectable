@@ -17,7 +17,7 @@
  *
  * {{ description }}.
  *
- * Copyright {{ date(Y) }}, {{ name }}
+ * Copyright 2013, {{ author }}
  * @license Dual licensed under the MIT or GPL Version 2 licenses.
  *
  * Date: {{ date }}
@@ -56,6 +56,7 @@ $comment_lines_replace = explode(PHP_EOL, $matches[0][0]);
 js_replace_name_version($comment_lines_replace[1], $package_name, $new_version);
 js_replace_homepage($comment_lines_replace[2], $homepage);
 js_replace_description($comment_lines_replace[4], $description);
+js_replace_copyright($comment_lines_replace[6], $author);
 js_replace_date($comment_lines_replace[9], $date);
 
 // Replace the old comment block with new one.

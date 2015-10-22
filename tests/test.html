@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit Tests for Intersectable</title>
+  <link rel="stylesheet" href="qunit.css">
+  <style type="text/css" media="all">
+    .template {
+      position: relative;
+      height: 55px;
+    }
+    .template>div {
+      position: absolute;
+      width: 100%;
+      height: 35px;
+      line-height: 35px;
+      left: 0;
+      background-color: rgba(15, 15, 15, .15);
+    }
+    #mom, #dad {
+      left: 25px;
+      width: calc(100% - 50px);
+    }
+    #mom {
+      top: 0;
+    }
+    #dad {
+      top: 50px;
+    }
+    #baby {
+      top: 25px;
+    }
+  </style>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  
+  <!-- Place any necessary markup for your tests inside #template; it will be duplicated anew for each test. -->
+  <div id="template" class="template">
+    <div id="mom"></div>
+    <div id="dad"></div>
+    <div id="baby">This one interesects both.</div>
+  </div>
+  
+  <script src="qunit.js"></script>
+  <script src="../bower_components/jquery/jquery.js"></script>
+  <script src="../Intersectable.js"></script>
+  <script src="tests.js"></script>
+</body>
+</html>
