@@ -1,5 +1,5 @@
 /**
- * Intersectable JavaScript Module v0.0.1
+ * Intersectable JavaScript Module v1.1
  * http://www.intheloftstudios.com/packages/js/intersectable
  *
  * 
@@ -7,7 +7,7 @@
  * Copyright 2015, Aaron Klump <sourcecode@intheloftstudios.com>
  * @license Dual licensed under the MIT or GPL Version 2 licenses.
  *
- * Date: Thu Oct 22 07:53:50 PDT 2015
+ * Date: Thu Oct 22 07:54:22 PDT 2015
  */
 /**
  * At the heart of this module is the concept of a bounds array.  It looks like
@@ -56,7 +56,7 @@
 var Intersectable = (function ($) {
 
   function Intersectable (settings) {
-    this.version = "0.0.1";
+    this.version = "1.1";
 
     if (typeof settings === 'string') {
       settings = {key: settings};
