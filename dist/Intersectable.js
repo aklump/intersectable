@@ -2,12 +2,12 @@
  * Intersectable JavaScript Module v1.1
  * http://www.intheloftstudios.com/packages/js/intersectable
  *
- * 
+ * Plugin to detect when an element scrolls past a portion of the visible screen.
  *
  * Copyright 2015, Aaron Klump <sourcecode@intheloftstudios.com>
  * @license Dual licensed under the MIT or GPL Version 2 licenses.
  *
- * Date: Thu Oct 22 07:54:22 PDT 2015
+ * Date: Thu Oct 22 10:20:27 PDT 2015
  */
 /**
  * At the heart of this module is the concept of a bounds array.  It looks like
@@ -156,7 +156,6 @@ var Intersectable = (function ($) {
         return [point - height, point];
       case 'top':
         return [point, point + height];
-      case 'center':
       default:
         return [point - height / 2, point + height / 2];
     }
@@ -279,7 +278,6 @@ var Intersectable = (function ($) {
       top: item[0],
       height: this.getHeight(item),
     };
-    console.log(style);
 
     $bounds.css(style);
     $('body').addClass('intersectable');
@@ -289,5 +287,3 @@ var Intersectable = (function ($) {
 
   return  Intersectable;
 })(jQuery);
-
-

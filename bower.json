@@ -13,5 +13,5 @@
     "authors": [
         "Aaron Klump <sourcecode@intheloftstudios.com>"
     ],
-    "description": ""
+    "description": "Plugin to detect when an element scrolls past a portion of the visible screen."
 }

@@ -1,3 +1,0 @@
---2015-10-21 15:36:02--  http://code.jquery.com/qunit/qunit-git.js
-Resolving code.jquery.com... failed: nodename nor servname provided, or not known.
-wget: unable to resolve host address 'code.jquery.com'
